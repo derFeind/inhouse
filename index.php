@@ -100,7 +100,12 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script language="JavaScript" src="js/glicko2.js"></script>
-
+  <script language="JavaScript" src="js/jquery-1.12.0.min.js"></script>
+  <script language="JavaScript" src="js/jquery.dataTables.min.js"></script>
+  <script language="JavaScript" src="js/dataTables.bootstrap.min.js"></script>
+  <script type="text/javascript">$(document).ready(function() {
+    $('#example').DataTable();
+} );</script>
 </head>
 
 
@@ -129,7 +134,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
   <div class="row">
             <h3><center>ranklist<center><h3>
   </div>
-  <table class="table table-striped">
+  <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
       <thead>
         <tr>
           <th>#</th>
@@ -168,7 +173,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 <table class="table table-striped">
       <thead>
         <tr>
-          <th>#</th>
+          <th>id</th>
           <th>player1</th>
           <th>player2</th>
           <th>result</th>

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <players>
 	<player name="Jan-Eric" mmr="1500" record="0-0"/>
-	<player name="Uwe" mmr="1500" record="0-0"/>
+	<player name="Uwe" mmr="1526" record="2-1"/>
 	<player name="Maik" mmr="1500" record="0-0"/>
 	<player name="Patrick" mmr="1500" record="0-0"/>
-	<player name="Lars" mmr="1500" record="0-0"/>
+	<player name="Lars" mmr="1474" record="1-2"/>
 	<player name="Nils" mmr="1500" record="0-0"/>
 	<player name="Sascha" mmr="1500" record="0-0"/>
 	<player name="David" mmr="1500" record="0-0"/>
